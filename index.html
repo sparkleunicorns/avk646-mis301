@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aashna @ UT Austin — Fall Classes & Faves</title>
+
+  <style>
+    :root{
+      --ink:#44202a;
+      --accent:#ff5fa2;   /* pink heading color */
+      --accent-deep:#ff2f86;
+      --bg:#ffeef6;       /* pink background */
+      --card:#fff7fb;
+      --line:#ffb6d9;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family: "Trebuchet MS", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg); color:var(--ink); line-height:1.5; text-align:center;
+    }
+    header{padding:28px 16px 8px}
+    h1{color:var(--accent); margin:0 0 6px; font-size:clamp(28px,4vw,40px)}
+    .sub{opacity:.8; margin:0 0 18px}
+    .photo{
+      display:block; margin:18px auto 10px; width:260px; max-width:70vw; height:auto;
+      border-radius:14px; box-shadow:0 6px 24px rgba(0,0,0,.1);
+    }
+    main{max-width:980px; margin:18px auto 40px; padding:0 16px}
+    .card{
+      background:var(--card); border:1px solid #ffd7e6; border-radius:16px;
+      padding:18px; margin:18px auto; box-shadow:0 6px 24px rgba(0,0,0,.05);
+      text-align:left;
+    }
+    /* Creative divider */
+    .divider{
+      display:flex; align-items:center; justify-content:center;
+      gap:12px; margin:30px auto; width:min(860px,92%);
+      color:var(--accent); font-size:28px; letter-spacing:6px;
+    }
+    .divider::before, .divider::after{
+      content:""; flex:1; height:2px;
+      background:linear-gradient(90deg, transparent, var(--line), transparent);
+      border-radius:2px;
+    }
+    h2{color:var(--accent); margin:8px 0 12px; text-align:left}
+    p{margin:0 0 10px}
+    table{width:100%; border-collapse:collapse; overflow:auto}
+    th, td{border:1px solid #ffcce0; padding:10px 8px; vertical-align:top}
+    th{background:#ffd9eb; text-align:left}
+    tbody tr:hover{background:#fff0f6}
+    .links a{color:var(--accent); text-decoration:none; font-weight:600; transition:color .15s ease}
+    .links a:hover{color:var(--accent-deep); text-decoration:underline}
+    .videos{display:flex; flex-wrap:wrap; gap:14px; justify-content:center; margin-top:6px}
+    .videos iframe{width:320px; height:180px; border:0; border-radius:12px; box-shadow:0 4px 16px rgba(0,0,0,.08)}
+    footer{font-size:13px; opacity:.7; padding:12px 0 28px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Aashna’s Corner 💕</h1>
+    <p class="sub">Finance + Applied Math @ UT Austin</p>
+    <img class="photo" src="Aashna_Kumar_Headshot.jpg" alt="Portrait of Aashna Kumar" />
+  </header>
+
+  <main>
+    <div class="card" style="text-align:center">
+      <p>Hey there! I’m Aashna — a Finance and Applied Mathematics student at UT Austin with a love for all things creative and analytical. I spend my days balancing equations, coding simulations, and occasionally balancing lattes during late-night study sessions. I’m passionate about data-driven storytelling, sustainable innovation, and finding beauty in structure — whether in an algorithm, a graph, or a good outfit.</p>
+      <p>This page captures a bit of who I am: the classes I’m taking this semester, the websites I unwind with, and the YouTube videos that keep me inspired when campus gets chaotic. It’s pink, it’s me, and it’s full of good vibes. Thanks for visiting my little digital world!</p>
+    </div>
+
+    <!-- ✨ Creative section break -->
+    <div class="divider">💗 ✦ 💕 ✦ 💗</div>
+
+    <section class="card">
+      <h2>📚 Course Schedule (Fall)</h2>
+      <table aria-label="Course schedule">
+        <thead>
+          <tr>
+            <th>Unique</th><th>Course</th><th>Title</th><th>Bldg</th><th>Room</th><th>Days</th><th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>02100</td><td>B A 101T</td><td>PROF DEVLOP/CAREER PLANNING</td><td>MEZ</td><td>1.306</td><td>T</td><td>12:30pm–2:00pm</td></tr>
+          <tr><td>59140</td><td>M 378K</td><td>INTRO TO MATHEMATCL STATISTICS</td><td>PMA</td><td>5.104</td><td>MWF</td><td>1:00pm–2:00pm</td></tr>
+          <tr><td>04955</td><td>D S 235</td><td>INTRO TO DECISION SCIENCE</td><td>UTC</td><td>1.132</td><td>TH</td><td>12:00pm–2:00pm</td></tr>
+          <tr><td>59025</td><td>M 362M</td><td>INTRO TO STOCHASTIC PROCESSES</td><td>PMA</td><td>5.122</td><td>TTH</td><td>9:30am–11:00am</td></tr>
+          <tr><td>06210</td><td>MAN 101T</td><td>LEADRSHP CHALLENGES/INNOVATION</td><td>CBA</td><td>4.342</td><td>M</td><td>11:00am–12:00pm</td></tr>
+          <tr><td>05030</td><td>MIS 301</td><td>INTRO TO INFO TECH MGMT-WB</td><td>—</td><td>—</td><td>MW</td><td>2:00pm–3:30pm</td></tr>
+          <tr><td>58695</td><td>M 325K</td><td>DISCRETE MATHEMATICS</td><td>PMA</td><td>5.116</td><td>MWF</td><td>12:00pm–1:00pm</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>🌐 Websites I Like</h2>
+      <ul class="links" style="list-style:none; padding-left:0; display:grid; gap:8px">
+        <li><a href="https://www.nytimes.com/crosswords/game/mini" target="_blank" rel="noopener">NYT Mini Crossword</a></li>
+        <li><a href="https://www.nytimes.com/games/wordle/index.html" target="_blank" rel="noopener">Wordle</a></li>
+        <li><a href="https://www.netflix.com/" target="_blank" rel="noopener">Netflix</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🎥 Study-Break YouTube Picks</h2>
+      <div class="videos">
+        <iframe src="https://www.youtube.com/embed/G7c8JMH6mCY" allowfullscreen title="Video 1"></iframe>
+        <iframe src="https://www.youtube.com/embed/ytVneQUA5-c" allowfullscreen title="Video 2"></iframe>
+        <iframe src="https://www.youtube.com/embed/8CJ8n_hLoFI" allowfullscreen title="Video 3"></iframe>
+        <iframe src="https://www.youtube.com/embed/ZQElzjCsl9o" allowfullscreen title="Video 4"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>© Aashna Kumar • UT Austin</footer>
+</body>
+</html>
